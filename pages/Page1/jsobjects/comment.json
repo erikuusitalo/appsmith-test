@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "comment",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tcreateComment: () => {\n\t\tcloseModal(\"Modal1\")\n\t\tshowAlert(\"Comment Created\", \"success\")\n\t}\n}",
+    "variables": []
+  },
+  "id": "Page1_comment",
+  "deleted": false,
+  "gitSyncId": "63565de431cf9c0f49180081_635667b2f6cdb970519c1160"
+}

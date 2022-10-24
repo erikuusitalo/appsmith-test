@@ -6,8 +6,13 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\tgetUserIds: () => {\n\t\treturn Query1.data.map(d => ({id: d.id}))\n\t}\n}",
-    "variables": []
+    "body": "export default {\n\tgetUserIds: () => {\n\t\treturn Query1.data.map(d => ({id: d.id}))\n\t},\n\ttester: () => {\n\t\tshowAlert()\n\t}\n}",
+    "variables": [
+      {
+        "name": "tester",
+        "value": "tester"
+      }
+    ]
   },
   "id": "Page1_UserIDs",
   "deleted": false,
